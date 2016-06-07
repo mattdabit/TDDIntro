@@ -2,6 +2,7 @@ package com.thoughtworks.tddintro.library;
 
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormatter;
+import org.junit.Before;
 
 import java.io.PrintStream;
 import java.util.List;
@@ -27,4 +28,7 @@ public class Library {
         String timeString = dateTimeFormatter.print(date);
         printStream.println("Welcome to the library! The current time is " + timeString);
     }
+
+
+
 }
